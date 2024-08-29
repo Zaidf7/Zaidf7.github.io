@@ -1,0 +1,188 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.main-container{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.left-container{
+display: flex;
+   flex-direction: column;
+   align-content: center;
+   width: 45%;
+   background: #fffcf8;
+   
+
+
+}
+
+.Tel{
+    text-align: center;
+    font-size: smaller;
+  
+}
+
+.footer{
+    text-align: center;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+
+.icons-container{
+   display: flex;  
+   justify-content: center;
+   margin-left: 0px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   gap: 15px;
+}
+
+.icons{
+    height: 20px;
+}
+.introtext{
+   text-align: center;
+   font-size: 3.187rem;
+   line-height: 55px;
+   margin-top: -5px;
+ 
+}
+
+.introtext{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bolder
+     
+}
+   
+
+
+.form{
+    display: flex;
+    padding: 20px;
+    
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 10px;
+}
+
+.signedup-text{
+    align-self: flex-end;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.signedup-span{
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.form-container{
+    margin-left: 35px;
+  }
+
+.signedup{
+    font-weight: bold;
+    margin-left: 20px;
+
+  }
+
+.signedup-helper{
+    color: #555;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-left: 20px;
+   
+  }
+
+.laptop{
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+}
+
+input{
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    width: 280px;
+    border-color: transparent;
+    outline: none;
+    font-weight:lighter;
+  
+}
+
+select{
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    width: 305px;
+    border-color: transparent;
+    outline: none;
+    font-weight: lighter;
+
+}
+
+input:focus{
+  border-color: cadetblue; 
+  
+
+}
+
+.hear-about-us{
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    width: 640px;
+    border-color: transparent;
+    outline: none;
+
+  
+}
+
+.form{
+    gap: 30px;
+}
+.middle-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.agreement{
+    margin-left: 20px;
+    
+}
+
+.terms-span, .policy-span{
+    text-decoration: none;
+    color: blue;
+}
+
+input[type=submit]{
+    margin-left: 20px;
+    width: 640px;
+    color:white;
+    background-color: rgb(112, 112, 240);
+}
+
+input[type=submit]:hover{
+    background-color: rgb(138, 138, 233);
+}
+
+.back-home{
+    text-decoration: none;
+    margin-left: 18px;
+}

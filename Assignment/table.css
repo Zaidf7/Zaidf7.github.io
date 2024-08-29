@@ -1,0 +1,111 @@
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+table{
+    width: 1400px;
+    
+}
+
+.topbar{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   background-color: rgb(24, 49, 84);
+   padding: 20px;
+   margin-bottom: 40px;
+}
+
+ul{
+    display: block;
+    overflow: hidden;
+    
+    
+}
+li{
+    display: inline; 
+    margin: 70px;
+    
+      
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+   
+}
+
+a:hover{
+    background-color: rgb(176, 205, 245);
+    border-radius: 5px;
+
+    
+}
+
+
+.header{
+    font-size: larger;
+    margin-bottom: 40px
+
+}
+
+.table-heads{
+    background-color: rgb(29, 61, 107);
+    height: 100px;
+    
+}
+
+td{
+    height: 100px;
+    background-color: rgb(176, 205, 245);
+    padding-left: 10px;
+
+}
+
+.head-style{
+    color: white;
+}
+
+.school-head{
+    text-align: left;
+    background-color: rgb(29, 61, 107);
+    color: white;
+    padding-left: 10px;
+    
+}
+
+Path{
+    fill: white;
+}
+
+svg{
+    height: 50px;
+    width: 50px;  
+}
+
+.fragment-identifier{
+    color: rgb(29, 61, 107);
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+
+.fragment-identifier:hover{
+    background-color:  rgb(176, 205, 245);
+}
+
+
