@@ -12,11 +12,12 @@ body{
 }
 
 .left-container{
-display: flex;
+   display: flex;
    flex-direction: column;
    align-content: center;
    width: 45%;
    background: #fffcf8;
+
    
 
 

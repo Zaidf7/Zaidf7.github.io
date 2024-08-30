@@ -7,27 +7,16 @@ body {
     padding: 0;
 }
 
-main{
-    background-color: white;
-    width: 1400px;
-    margin-left: 50px;
+.main-container{
+   display: flex;
+   flex-direction: column;
 }
-
 
 h1{
-    display: block;
-    text-align: center;
-    font-size: larger;
-    border-width: 60px;
-    color: white;
-    padding: 10px 10px;
-    margin: auto;
+    display: inline;
     width: 300px;
-    border-radius: 10px;
-    background-color: rgb(24, 49, 84)
-
+    text-align: center;
 }
-
 h2{
     color: white;
     padding: 10px 10px;
@@ -95,4 +84,28 @@ a:hover{
 
 .foot-container{
     margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 600px) {
+    main{
+        background-color: white;
+        margin-left: 50px;
+    }
+    
+    
+    h1{
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: larger;
+        padding: 40px;
+        margin: auto;
+        border-radius: 10px;
+        background-color: rgb(24, 49, 84)
+    
+    }
 }
